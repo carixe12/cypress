@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        display: block;
+        font: 1rem "Fira Sans", sans-serif;
+      }
+
+      input,
+      label {
+        margin: 0.4rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h2>tea lover list</h2>
+      <p>what is your favourit tea</p>
+
+      <ol id="black">
+        <li>Coffee</li>
+        <li>
+          Tea
+          <ol>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ol>
+        </li>
+        <li>Milk</li>
+      </ol>
+
+      <label for="site-search">Search the site:</label>
+      <input type="search" id="site-search" name="q" />
+
+      <button>Search</button>
+    </div>
+  </body>
+</html>
